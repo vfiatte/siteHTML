@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Streaming : Contact</title>
+        <link href="Style/style1.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body class="centrer">
+        <div class="menu"> Menu :
+            <a href = "Films.html">Films</a> 
+            <a href = "Series.html">Series</a> 
+            <a href ="index.html"> Home</a>
+        </div>
+        
+       
+
+
+        <br>
+        <div class="contenu">
+            AJOUTER UN FILM</br>
+        </div>
+        <br>
+        <div class="menu"> Ajouter :
+            <a href = "FormulaireFilm.html">un film</a> 
+            <a href = "FormulaireSerie.html">une serie</a> 
+        </div>
+        <form class="centerFormulaire" method="get">
+            <table>
+                
+
+
+
+                    <tr>
+                        <td><label>Titre</label></td>
+                        <td><input type="text" name = "Titre du film"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Synopsis</label></td>
+                        <td><textarea name = "Synopsis"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label>Annee</label></td>
+                        <td><input type="date"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Genre</label></td>
+                        <td><select name = "genre">
+                                <option value="1"> Animation </option>
+                                <option value="2"> Fantastique </option> 
+                                <option value="3"> Science-Fiction </option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Pays</label></td>
+                        <td><select name = "Pays">
+                                <option value="1"> France </option>
+                                <option value="2"> Espagne </option> 
+                                <option value="3"> USA </option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Realisateur</label></td>
+                        <td><select multiple name = "Realisateur">
+                                <option value="1"> Ethan Cohen </option>
+                                <option value="2"> Joel Cohen </option>
+                                <option value="3"> Pedro Almodovar </option> 
+                                <option value="4"> Maiwen </option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Publi&eacute</label></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2"><input  type="Submit"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+
+        </form>
+    </body>
+</html>

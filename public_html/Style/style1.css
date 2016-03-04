@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3 mars 2016, 15:46:12
+    Author     : admin
+*/
+
+body{
+    background-image: url('image/salle-de-cinema-le-cinema-de-personne-1320.png' );
+    background-size: 100%;
+    color: #ffcccc;
+    font-family: fantasy;
+    font-size: large;
+        
+}
+
+.menu{
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    border-color: white;
+    border-style: groove;
+    border-width: 3pt 0pt 0pt 0pt;
+    
+        
+}
+
+.bouton{
+    border-style: groove;
+    align-content: center;
+    text-align: center;
+    border-color: white;
+}
+
+.contenu{
+    border-radius: 150pt 150pt;
+    align-content: center;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    background-color: white;
+        
+}
+td{
+    text-align: center;
+}
+
+.pied{
+    text-align: center;
+    border-style: solid;
+    border-radius: 10pt 10pt;
+    border-color: #6699ff;
+    margin-top: 38%;
+        
+}
+a:visited,  a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ffff66;
+}
+
+img{
+    width: 295px; 
+    height: 450px;
+}
+
+.centrer{
+    align-content: center;
+    
+}
+
+.centerFormulaire{
+    margin-top: 3.75%;
+    margin-left: 35%;
+    color : black;
+}
+
+textArea, select, input {
+     width: 450px; height: 25px;
+     
+}
+
+.width{
+    height:  200px;
+}
